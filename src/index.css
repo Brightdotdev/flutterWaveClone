@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'millik';
+  src: url('fonts/millik.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Moderat-Bold';
+  src: url('fonts/Moderat-Bold.woff') format('woff'); 
+  font-weight: normal; 
+  font-style: normal;
+}
+
+
+
+
+@layer components{
+  .justifyCenterSpaceBetween{
+    @apply flex items-center justify-between;
+  }
+  .primaryButtonColor{
+    @apply text-fadedGrey font-medium md:font-normal   bg-textBlue rounded-lg;
+  }
+  .secondaryButtonColor{
+    @apply bg-fadedGrey font-medium   md:font-normal text-textBlue rounded-lg;
+  }
+}
+.cls-1{fill:#2a3362;}
+.cls-2{fill:#009a46;}
+.cls-3{fill:#ff5805;}
+.cls-4{fill:#f5afcb;}
+.cls-5{fill:#ff9b00;}
