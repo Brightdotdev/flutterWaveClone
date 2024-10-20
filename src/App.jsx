@@ -3,7 +3,8 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import Payments from './components/Payments'
 import EcommerceStore from './components/EcommerceStore'
-import EndlessPaymentPossobilities from './components/EndlessPaymentPossobilities'
+import EndlessPaymentPosibilities from './components/EndlessPaymentPosibilities'
+import ApiDocuentation from './components/ApiDocuentation'
 
 const App = () => {
   return (
@@ -14,12 +15,11 @@ const App = () => {
 
 <Payments/>
 
-
-
 <EcommerceStore/>
 
+<EndlessPaymentPosibilities/>
 
-<EndlessPaymentPossobilities/>
+<ApiDocuentation/>
 {/* 
    <div className="w-screen h-screen p-2 relative lg:mt-[10rem] md:mt-[80rem] mt-[30rem] flex flex-col gap[2rem]">
 

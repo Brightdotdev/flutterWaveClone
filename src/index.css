@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'millik';
-  src: url('fonts/millik.woff') format('woff'); 
+  src: url('/fonts/millik.woff') format('woff'); 
   font-weight: normal; 
   font-style: normal;
 }
@@ -14,10 +14,11 @@
 
 @font-face {
   font-family: 'Moderat-Bold';
-  src: url('fonts/Moderat-Bold.woff') format('woff'); 
+  src: url('/fonts/Moderat-Bold.woff') format('woff'); 
   font-weight: normal; 
   font-style: normal;
 }
+
 
 
 
@@ -38,3 +39,14 @@
 .cls-3{fill:#ff5805;}
 .cls-4{fill:#f5afcb;}
 .cls-5{fill:#ff9b00;}
+
+.circleList li::before {
+  content: ''; 
+  position: absolute;
+  top: 0.75rem; 
+  left: 0; 
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #6672C7; 
+  border-radius: 9999px; 
+}
