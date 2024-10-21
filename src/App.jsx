@@ -5,6 +5,7 @@ import Payments from './components/Payments'
 import EcommerceStore from './components/EcommerceStore'
 import EndlessPaymentPosibilities from './components/EndlessPaymentPosibilities'
 import ApiDocuentation from './components/ApiDocuentation'
+import GlobalReach from './components/GlobalReach'
 
 const App = () => {
   return (
@@ -20,6 +21,9 @@ const App = () => {
 <EndlessPaymentPosibilities/>
 
 <ApiDocuentation/>
+
+
+<GlobalReach/>
 {/* 
    <div className="w-screen h-screen p-2 relative lg:mt-[10rem] md:mt-[80rem] mt-[30rem] flex flex-col gap[2rem]">
 

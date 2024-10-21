@@ -2,7 +2,7 @@ import React from 'react'
 
 const ApiDocuentation = () => {
   return (
-    <section className="w-[80%] h-screen p-2 pt-8 flex flex-col items-start justify-between">
+    <section className="w-[95%] h-screen p-2 pt-8 flex flex-col items-start justify-between">
         <h3 className='text-6xl font-millik lg:max-w-[50%]  text-textBlack'>
         Well documented and easy-to-use <span className='text-primaryPink'>APIs</span> for 
         <span className="text-primaryPink">

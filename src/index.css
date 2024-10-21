@@ -55,3 +55,17 @@
   background-color: #6672C7; 
   border-radius: 9999px; 
 }
+
+@keyframes earthy {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@layer utilities {
+  .animateEarthy {
+    animation: earthy 5s linear infinite;
+  }
+}
