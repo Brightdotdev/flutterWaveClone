@@ -40,12 +40,17 @@
 .cls-4{fill:#f5afcb;}
 .cls-5{fill:#ff9b00;}
 
+.circleList li {
+  position: relative; 
+  padding-left: 1.5rem; 
+}
+
 .circleList li::before {
   content: ''; 
   position: absolute;
-  top: 0.75rem; 
+  top: 0.5rem; 
   left: 0; 
-  width: 0.5rem;
+  width: 1rem;
   height: 0.5rem;
   background-color: #6672C7; 
   border-radius: 9999px; 

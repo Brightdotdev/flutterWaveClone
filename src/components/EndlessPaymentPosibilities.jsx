@@ -74,7 +74,7 @@ onMouseOut={() => resetCards("thirdArticle", '60%')}
 
 const EndlessPaymentPossobilities = () => {
   return (
-    <section className='w-screen lg:h-[150vh] overflow-hidden bg-bgBlack flex flex-col items-center gap-[4rem] pt-[5rem]  relative  justify-start'>
+    <section className='w-screen lg:h-[150vh] overflow-hidden bg-bgBlack flex flex-col items-center gap-[4rem] p-4 pt-[5rem]  relative  justify-start'>
 
         <h3 className='font-millik text-textWhite max-w-[90%] text-4xl lg:text-7xl text-center lg:max-w-[50%]'>
         Endless payment possibilities for every <span className='text-primaryPink'>
