@@ -58,14 +58,34 @@
 
 @keyframes earthy {
   0% {
-    background-position: 100% 0;
+    background-position: 0 0;
   }
   100% {
-    background-position: 0 0;
+    background-position: -200% 0;
   }
 }
 @layer utilities {
   .animateEarthy {
-    animation: earthy 5s linear infinite;
+    animation: earthy 15s linear infinite;
   }
+}
+
+
+
+
+@keyframes moveBeams {
+  0% {
+    stroke-dashoffset: 3000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.beam-effect {
+  animation: moveBeams 1s linear infinite; /* Animates the stroke */
+  
+  stroke-dasharray: 3000;
+  stroke-width: 2;
+  stroke-dashoffset: 3000;
 }
