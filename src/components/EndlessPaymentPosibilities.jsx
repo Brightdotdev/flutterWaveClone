@@ -27,10 +27,10 @@ function resetCards(id, originalPosition) {
              onMouseOver={() => moveCards("secondArticle", '40%')}  
              onMouseOut={() => resetCards("secondArticle", '30%')}  
            
-           id='firstArticle' className="cursor-pointer w-[32rem] rounded-lg lg:absolute left-0 z-10 text-textWhite bg-bgBlack min-h-[18rem] shadow-3xl p-4 pt-10 flex items-start flex-col justify-start gap-4 
+           id='firstArticle' className="cursor-pointer w-[32rem] rounded-lg lg:absolute left-0 z-10 text-textWhite bg-[#363636] min-h-[18rem] shadow-3xl p-4 pt-10 flex items-start flex-col justify-start gap-4 
            transition-all ease-in-out duration-500">
-                <h3 className="text-4xl font-semibold">Send money to loved ones</h3>
-                <p className='font-normal text-xl'>
+                <h3 className="md:text-4xl text-2xl font-semibold">Send money to loved ones</h3>
+                <p className='font-normal md:text-xl text-sm'>
                 Experience the convenience and security of Send, 
                 enabling you to effortlessly and securely transfer 
                 funds to your beloved ones residing overseas. Begin 
@@ -46,21 +46,20 @@ function resetCards(id, originalPosition) {
 onMouseOver={() => moveCards("thirdArticle", '75%')}  
 onMouseOut={() => resetCards("thirdArticle", '60%')}  
             
-            className="cursor-pointer w-[32rem] rounded-lg lg:absolute z-20 left-[30%] text-textWhite bg-bgBlack min-h-[18rem] shadow-3xl p-4 pt-10 flex items-start flex-col justify-start gap-4
+            className="cursor-pointer w-[32rem] rounded-lg lg:absolute z-20 left-[30%] text-textWhite bg-[#363636] min-h-[18rem] shadow-3xl p-4 pt-10 flex items-start flex-col justify-start gap-4
             transition-all ease-in-out duration-500">
-                <h3 className="text-4xl font-semibold">Shop online</h3>
-                <p>Explore a world of-font-normal text-xlsibilities a className='font-medium's you Discover, 
-                    Shop, and have your purchases conveniently
-                     delivered from your cherished online businesses.
-                      Embark on a secure shopping journey and relish the 
-                      joy of acquiring great items from amazing small
-                       businesses, right <span className="decoration-solid">
-                        here</span></p>
+                <h3 className="md:text-4xl text-2xl font-semibold">Shop online</h3>
+                <p>Explore a world of possibilities as you Discover, Shop, and 
+                have your purchases conveniently delivered from your 
+                cherished online businesses. Embark on a secure shopping 
+                journey and relish the joy of acquiring great items from
+                amazing small businesses, right <span className="decoration-solid">
+                here</span></p>
             </article>
-            <article id='thirdArticle'  className="cursor-pointer w-[32rem] rounded-lg lg:absolute left-[60%] z-30 text-textWhite bg-bgBlack min-h-[18rem] shadow-3xl p-4 pt-10 flex items-start flex-col justify-start gap-4
+            <article id='thirdArticle'  className="cursor-pointer w-[32rem] rounded-lg lg:absolute left-[60%] z-30 text-textWhite bg-[#363636] min-h-[18rem] shadow-3xl p-4 pt-10 flex items-start flex-col justify-start gap-4
             transition-all ease-in-out duration-500">
-                <h3 className="text-4xl font-semibold">Find events and Buy tickets</h3>
-                <p className='font-normal text-xl'>
+                <h3 className="md:text-4xl text-2xl font-semibold">Find events and Buy tickets</h3>
+                <p className='font-normal md:text-xl text-sm'>
                 Browse upcoming events and secure your ticket on
                  our Afritickets platform <span className="decoration-solid">
                     here
@@ -74,15 +73,15 @@ onMouseOut={() => resetCards("thirdArticle", '60%')}
 
 const EndlessPaymentPossobilities = () => {
   return (
-    <section className='w-screen lg:h-[150vh] overflow-hidden bg-bgBlack flex flex-col items-center gap-[4rem] p-4 pt-[5rem]  relative  justify-start'>
+    <section className='w-full lg:h-[150vh] overflow-hidden bg-bgBlack flex flex-col items-center gap-[4rem] p-4 pt-[5rem]  relative  justify-start'>
 
-        <h3 className='font-millik text-textWhite max-w-[90%] text-4xl lg:text-7xl text-center lg:max-w-[50%]'>
+        <h3 className='font-millik text-textWhite max-w-[90%] md:text-4xl text-2xl lg:text-7xl text-center lg:max-w-[50%]'>
         Endless payment possibilities for every <span className='text-primaryPink'>
         individual
         </span>
         </h3>
 
-        <h6 className='lg:max-w-[50%] max-w-[95%] text-textWhite text-2xl mb-[8rem]' > 
+        <h6 className='lg:max-w-[50%] max-w-[95%] text-textWhite md:text-2xl text-lg mb-[8rem] text-center' > 
         Flutterwave offers a host of seamless products for individuals,
          ensuring smooth transactions and efficient money management.
         </h6>

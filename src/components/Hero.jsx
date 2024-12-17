@@ -15,22 +15,22 @@ import wise from "/images/wise.svg"
 
 const HeroText = () =>{
     return (
-    <div className="w-[90%] lg:h-screen ">
-          <article className='flex flex-col lg:gap-[4rem] lg:mt-4  m-0 gap-[1rem]'>
+    <div className="xl:w-[80%] md:w-[95%] w-full px-4  md:p-0   lg:h-screen">
+          <article className='flex flex-col lg:gap-8 lg:mt-4 m-0 gap-[1rem]'>
 
-            <h1 className='text-primaryOrange font-millik  max-w-[70%] text-5xl md:text-8xl' >
+            <h1 className='text-primaryOrange font-millik  max-w-[70%] text-4xl md:text-8xl' >
             Endless possibilities <br/>
             <span className='text-textBlack'> for all</span>
             </h1>
             <p className="lg:text-lg text-sm  lg:max-w-[60%] font-[450] 
-            font-Moderat-Bold lg:leading-[2rem] leading-[1.5rem] lg:w-[70%] w-[100%] lg:tracking-widest text-textBlack">
+            font-Moderat-Bold lg:leading-[2rem] leading-[1rem] lg:w-[70%] w-[100%] lg:tracking-widest text-textBlack">
             Unlocking boundless payment opportunities for enterprises,<br/>
              individuals, small businesses, emerging markets, and startups<br/>
               alike.
             </p>
             <div className="flex md:gap-6  gap-3">
-            <button className='primaryButtonColor w-[12rem] h-[3.5rem]'>  Create Free acoount</button>
-            <button className='secondaryButtonColor w-[9rem] h-[3.5rem]' > contact sales </button>
+            <button className='primaryButtonColor md:w-[12rem]  md:h-[3.5rem] w-[10rem] h-[3.5rem]'>  Create Free acoount</button>
+            <button className='secondaryButtonColor  md:w-[9rem]  md:h-[3.5rem] w-[8rem] h-[3.5rem]' > contact sales </button>
             </div>
         </article>
     </div>
@@ -118,9 +118,8 @@ flex items-center
 justify-center">
 <p className='
 leading-[1.5rem]
-tracking-[-0.1rem]
-lg:max-w-[50%]
-font-[450] text-textBlack'>
+font-normal
+lg:max-w-[50%] text-textBlack'>
         Send money home to loved ones, sell 
         online as a small business, process global
          payments as an enterprise, build financial 
@@ -138,9 +137,9 @@ font-[450] text-textBlack'>
 
 const Hero = () => {
   return (
-    <main className='flex flex-col items-center relative w-screen justify-center  gap-2 lg:gap-[10rem]' >
+    <main className='flex flex-col items-center relative w-full justify-start  gap-2 lg:gap-[10rem]' >
         <HeroText/>
-        <div className="flex flex-col relative w-screen h-screen">
+        <div className="flex flex-col relative">
         <HeroLeft/>
         <HeroRight/>
         </div>

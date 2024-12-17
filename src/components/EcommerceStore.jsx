@@ -8,7 +8,7 @@ import creatorImage from "/images/creator.webp"
 
 const EcommerceStoreLeft = () => {
     return (
-      <article className='flex flex-col gap-2 items-center lg:absolute lg:bottom-[2rem] lg:left-[-5rem]' >
+      <article className='flex flex-col gap-2 items-center xl:absolute xl:bottom-[2rem] xl:left-[-5rem]' >
       <img src={creatorImage} alt="creatorImage" />
       <h5 className=' text-1xl'  >
       A platform for you, whether you’re a big business or a <span className='text-primaryGreen'> solo artist.</span>
@@ -19,11 +19,11 @@ const EcommerceStoreLeft = () => {
 
   const EcommerceStoreRight = () => {
     return (
-      <div className='flex md:justify-between items-center   relative flex-wrap'>
+      <div className='flex xl:justify-between items-center relative flex-wrap w-full gap-8 '>
 
 
-<article className="h-[25rem] gap-4 max-w-[18rem] flex flex-col lg:mt-[10rem]">
-<h5 className="text-3xl  font-semibold">
+<article className="xl:h-[25rem] gap-4 w-[18rem] mb-0 xl:mb-[25rem] flex flex-col">
+<h5 className="text-3xl font-semibold">
 Store
 </h5>
 <p className='
@@ -37,12 +37,12 @@ Start selling
 </article>
 
 
-      <div className="flex flex-col lg:gap-4 items-center">
-<div className="lg:w-[40rem] lg:h-[45rem] overflow-hidden flex items-center justify-center object-cover">
-<img src={storeWomanRight} className='w-[100%] h-[100%] object-cover' alt="open a store with flutterwave" />
+      <div className="flex flex-col gap-6 items-center">
+<div className="md:w-[40rem] md:h-[45rem] w-full overflow-hidden flex items-center justify-center object-cover">
+<img src={storeWomanRight} className='object-cover' alt="open a store with flutterwave" />
 </div>
 
-            <article className="flex flex-col gap-2  w-[20rem] h-[35rem] justify-center" >
+            <article className="flex flex-col gap-2  xl:w-[20rem] xl:h-[35rem] justify-center" >
 
    <div className="flex flex-col gap-4">
        <h2 className="text-3xl  font-bold ">Invoices</h2>
@@ -87,13 +87,12 @@ Start selling
 
 const EcommerceStore = () => {
   return (
-    <section className='bg-fadedGrey w-screen items-center flex flex-col gap-[4rem] p-4 pt-8'>
-<h2 className="lg:text-7xl text-5xl font-millik md:max-w-[50%] self-start">
+    <section className='bg-fadedGrey w-full items-center flex flex-col gap-[4rem] p-4 pt-8'>
+
+<h2 className="lg:text-7xl md:text-5xl text-3xl font-millik md:max-w-[50%] self-start">
 Endless payment possibilities for every <span className='text-primaryGreen'>
 Small Business.
 </span>
-
-
 </h2>
 
 <div className="lg:w-[85%] w-[90%] relative">
@@ -102,13 +101,14 @@ Small Business.
 </div>
 
 <div className="w-[95%] flex flex-col gap-8 items-start justify-center">
-<h4 className="lg:text-8xl 
-lg:leading-[7rem]
+<h4 className="lg:text-7xl 
+lg:leading-[6rem]
 
 
-leading-[4rem]
-tracking-[0.1rem]
-text-[3.5rem]
+md:leading-[3rem]
+md:tracking-[0.1rem]
+md:text-4xl
+text-2xl
 ">
 
 Let’s play to our strengths,<br/>

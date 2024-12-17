@@ -2,8 +2,8 @@ import React from 'react'
 
 const ApiDocuentation = () => {
   return (
-    <section className="w-[95%] h-screen p-2 pt-8 flex flex-col items-start justify-between">
-        <h3 className='text-6xl font-millik lg:max-w-[50%]  text-textBlack'>
+    <section className="w-[95%] h-screen p-6 md:p-10 pt-8 flex flex-col items-start justify-between">
+        <h3 className='lg:text-6xl md:text-4xl text-3xl font-millik lg:max-w-[50%]  text-textBlack'>
         Well documented and easy-to-use <span className='text-primaryPink'>APIs</span> for 
         <span className="text-primaryPink">
         developers
@@ -26,7 +26,7 @@ const ApiDocuentation = () => {
 
 
 
-        <button className="primaryButtonColor w-[12rem] h-[4rem]">
+        <button className="primaryButtonColor md:w-[12rem] w-[9rem] md:h-[4rem] h-[3.5rem]"> 
             Read the Api Docs
         </button>
     </section>

@@ -86,6 +86,6 @@
   animation: moveBeams 1s linear infinite; /* Animates the stroke */
   
   stroke-dasharray: 3000;
-  stroke-width: 2;
+  stroke-width: 1;
   stroke-dashoffset: 3000;
 }

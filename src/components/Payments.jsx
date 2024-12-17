@@ -4,7 +4,7 @@ import paymentImage from "/images/checkout.png"
 
 const PaymentsOptions = () => {
     return (
-  <div className="w-[95%] h-[screen] flex gap[4rem] gap-[5rem] items-center justify-center flex-wrap">
+  <div className="w-[95%] h-[screen] flex gap-[5rem] items-center justify-center flex-wrap">
 
 <article className="flex flex-col gap-[1rem]  md:w-[20rem] w-[95%]  justify-center">
     <h2 className='text-4xl'>Online Checkout</h2>
@@ -62,10 +62,10 @@ const PaymentsOptions = () => {
 
 const Payments = () => {
   return (
-    <section className='w-screen  pt-8 p-4 relative lg:mt-[20rem] mt-[40rem]   md:mt-[80rem]  flex flex-col  gap-[6rem]  justify-center '>
+    <section className='w-full pt-8 p-4 md:p-8 relative  mt-0 lg:mt-[55rem] flex flex-col gap-24  justify-center '>
 
 
-    <h2 className="md:text-8xl text-5xl  max-w-[90%] font-millik md:max-w-[60%]">
+    <h2 className="lg:text-7xl md:text-6xl text-4xl  max-w-[90%] font-millik lg:max-w-[60%]">
     Endless payment possibilities <span className="text-primaryOrange">
     for enterprises
     </span>
